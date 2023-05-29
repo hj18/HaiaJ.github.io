@@ -1,0 +1,185 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar
+{
+    background-color: rgb(105, 21, 153);
+    width: 10vw;
+}
+
+.sidebar nav
+{
+    padding: 20px;
+}
+
+.sidebar nav li
+{
+    list-style: none;
+    font-size: 30px;
+    padding: 40px 0;
+    font-weight: bold;
+}
+
+.sidebar nav li a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.main
+{
+    background-color: rgb(255, 255, 255);
+    width: 90vw;
+}
+
+.container
+{
+    display: flex;
+
+}
+
+.devInfo
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;  
+}
+
+.name
+{
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.about
+{
+    font-size: 50px;
+}
+
+.moreAbout
+{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.infoContent 
+{
+    height: 84vh;
+    width: 80vw;
+    margin: 100px auto;
+    display: flex;
+}
+
+
+/*About me page*/ 
+.contactform 
+{
+    background-color: rgb(255, 255, 255);
+    height: 84vh;
+    width: 80vw;
+    margin: 100px auto;
+    display: flex;
+}
+
+.contactform1 
+{
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    width: 80vw;
+    margin: 100px auto;
+    display: flex;
+}
+
+.Bio
+{
+    display: flex;
+    margin:  auto;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+.info-me 
+{
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    font-size: 25px;
+    width: 60vw;
+}
+
+.skills
+{
+    width: 100%;
+    max-width: 600px;
+    padding-top: 20px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.skill-info
+{
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    font-size: 25px;
+    width: 60vw;  
+}
+
+.skill-name
+{
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: uppercase;
+    margin: 20px 0;
+}
+
+.skill-bar
+{
+    height: 14px;
+    background: #282828;
+    border-radius: 3px;
+}
+
+.skill-per
+{
+    height: 14px;
+    background: #d13639;
+    border-radius: 3px;
+    position: relative;
+}
+
+.skill-per::before
+{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background:coral;
+    border-radius: 4px;
+}
+
+.flex-box 
+{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.flex-container::after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+  
+
+
